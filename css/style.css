@@ -1,0 +1,28 @@
+@import url(nav-bar.css);
+@import url(section-img.css);
+@import url(cards.css);
+@import url(web.css);
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+body {
+    background: #eee;
+}
+
+.container {
+    width: 100%;
+}
+.hide{
+    display:none
+}
+.menu-nav button{
+    border:none;
+    background-color: transparent;
+}
